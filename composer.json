@@ -1,0 +1,26 @@
+{
+    "name": "emersion/buphp",
+    "version": "0.1",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "emersion",
+            "homepage": "http://emersion.fr"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor",
+        "component-dir": "assets",
+        "component-baseurl": "assets"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/process": "2.6.*@dev",
+        "components/jquery": "1.9.*",
+        "components/bootstrap": "3.*",
+        "components/font-awesome": "4.*"
+    }
+}
